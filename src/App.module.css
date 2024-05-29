@@ -1,0 +1,16 @@
+.main {
+  height: calc(99vh - 70px);
+}
+.workingSection {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .workingSection {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 70px);
+  }
+}
