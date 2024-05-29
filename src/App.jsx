@@ -14,7 +14,7 @@ function codeReducer(state, payload) {
 function App() {
   const [code, dispatch] = useReducer(
     codeReducer,
-    `//Write your code here \n console.log("Compilarize, your online javascript solutions"); `
+    `//Write your code here \n console.log("Compilerize, your online javascript solutions"); `
   );
   const [output, setOutput] = useState("Output will be displayed here");
 
