@@ -68,7 +68,11 @@ const CodeEditor = ({ code, dispatch, setOutput }) => {
       </header>
       <div className={styles.editorContainer}>
         <Editor
-          options={{ fontSize: 15, minimap: { enabled: false } }}
+          options={{
+            fontSize: 15,
+            minimap: { enabled: false },
+            wordWrap: "on",
+          }}
           height="100%"
           width="100%"
           theme={theme}
